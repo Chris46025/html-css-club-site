@@ -1,0 +1,97 @@
+/* reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code, em, img,
+small, strong, sub, sup,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend, label, input, textarea, select, button,
+table, caption, thead, tbody, tfoot, tr, th, td {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, audio, canvas, video { display: block; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; line-height: normal; }
+address, cite, code, em, strong { font-style: normal; font-weight: normal; }
+ol, ul { list-style: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input, textarea, select, button { display: block; resize: none; }
+img { display: block; max-width: 100%; }
+html { height: 100%; }
+
+*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.bio{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	background-color: #8C95B3;
+	border-radius: 5px;
+  	border: 2px solid #696F84;
+}
+#bio p{
+	font-size: 18px;
+	font-family: fantasy;
+	font-weight: bold;
+	color: #1D1D20;
+}
+
+.connections{
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	padding-bottom: 100px;
+	margin-bottom: 10%;
+}
+
+.content:after {
+  content: "";
+  display: block;
+}
+
+.footer, .content:after {
+  position:absolute;
+  bottom:0;
+  height: 25px; 
+  width: 100%;
+  color: white;
+}
+.footer{
+	background-color: #696F85;
+	text-align:right;x
+}
+
+html { 
+  background: url(../public/about_me.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nav{
+	background-color: #6F6F77;
+	box-shadow: 4px 4px 2px #3F3F3F;
+	color: white;
+	height: 50px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+#nav ul li { 
+	font-size: 20px;
+	display: inline; 
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+#nav ul li a
+{
+	color: white;
+	padding: .2em 1em;
+	text-decoration: none;
+}

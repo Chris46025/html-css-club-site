@@ -30,6 +30,8 @@ html { height: 100%; }
 	background-color: #8C95B3;
 	border-radius: 5px;
   	border: 2px solid #696F84;
+  	margin-top: 65px;
+  	margin-bottom: 10px;
 }
 #bio p{
 	font-size: 18px;
@@ -52,7 +54,7 @@ html { height: 100%; }
 }
 
 .footer, .content:after {
-  position:absolute;
+  position:relative;
   bottom:0;
   height: 25px; 
   width: 100%;
@@ -60,10 +62,12 @@ html { height: 100%; }
 }
 .footer{
 	background-color: #696F85;
-	text-align:right;x
+	text-align:right;
+
 }
 
 html { 
+	background-color: 
   background: url(../public/about_me.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
